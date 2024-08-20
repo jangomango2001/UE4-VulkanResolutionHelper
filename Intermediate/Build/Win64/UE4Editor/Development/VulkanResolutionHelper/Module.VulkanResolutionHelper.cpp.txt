@@ -1,0 +1,6 @@
+E:\VulkanPlugin\Plugins\VulkanResolutionHelper\Intermediate\Build\Win64\UE4Editor\Development\VulkanResolutionHelper\Definitions.VulkanResolutionHelper.h
+E:/VulkanPlugin/Plugins/VulkanResolutionHelper/Source/VulkanResolutionHelper/Private/VulkanResolutionHelper.cpp
+E:\VulkanPlugin\Plugins\VulkanResolutionHelper\Source\VulkanResolutionHelper\Public\VulkanResolutionHelper.h
+E:/VulkanPlugin/Plugins/VulkanResolutionHelper/Source/VulkanResolutionHelper/Private/VulkanResolutionHelperBPLibrary.cpp
+E:\VulkanPlugin\Plugins\VulkanResolutionHelper\Source\VulkanResolutionHelper\Public\VulkanResolutionHelperBPLibrary.h
+E:\VulkanPlugin\Plugins\VulkanResolutionHelper\Intermediate\Build\Win64\UE4Editor\Inc\VulkanResolutionHelper\VulkanResolutionHelperBPLibrary.generated.h

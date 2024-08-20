@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VulkanResolutionHelper.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\VulkanPlugin\Intermediate\Build\Win64\VulkanPluginEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\VulkanPlugin\Plugins\VulkanResolutionHelper\Intermediate\Build\Win64\UE4Editor\Development\VulkanResolutionHelper\Module.VulkanResolutionHelper.cpp.obj"
+"E:\VulkanPlugin\Plugins\VulkanResolutionHelper\Intermediate\Build\Win64\UE4Editor\Development\VulkanResolutionHelper\Module.VulkanResolutionHelper.gen.cpp.obj"
+"E:\VulkanPlugin\Plugins\VulkanResolutionHelper\Intermediate\Build\Win64\UE4Editor\Development\VulkanResolutionHelper\Default.rc2.res"
+/OUT:"E:\VulkanPlugin\Plugins\VulkanResolutionHelper\Intermediate\Build\Win64\UE4Editor\Development\VulkanResolutionHelper\UE4Editor-VulkanResolutionHelper.lib"
+/INCLUDE:IMPLEMENT_MODULE_VulkanResolutionHelper

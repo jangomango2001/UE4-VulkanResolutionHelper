@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VulkanResolutionHelper.cpp.obj": [
+			"VulkanResolutionHelper.cpp.obj",
+			"VulkanResolutionHelperBPLibrary.cpp.obj"
+		],
+		"Module.VulkanResolutionHelper.gen.cpp.obj": [
+			"VulkanResolutionHelper.init.gen.cpp.obj",
+			"VulkanResolutionHelperBPLibrary.gen.cpp.obj"
+		]
+	}
+}
