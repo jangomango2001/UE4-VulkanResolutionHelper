@@ -13,7 +13,7 @@ TArray<FIntPoint> UVulkanResolutionHelperBPLibrary::GetSupportedResolutions(int3
 {
     // Get the display metrics
     FDisplayMetrics DisplayMetrics;
-    FDisplayMetrics::GetDisplayMetrics(DisplayMetrics);
+    FDisplayMetrics::RebuildDisplayMetrics(DisplayMetrics);
 
     if (MonitorIndex >= DisplayMetrics.MonitorInfo.Num()) {
         GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::Printf(TEXT("Monitor Index %d Out of Bounds"), MonitorIndex));
@@ -51,7 +51,7 @@ TArray<FIntPoint> UVulkanResolutionHelperBPLibrary::GetPrimaryMonitorSupportedRe
 int32 UVulkanResolutionHelperBPLibrary::GetNumberOfConnectedMonitors()
 {
     FDisplayMetrics DisplayMetrics;
-    FDisplayMetrics::GetDisplayMetrics(DisplayMetrics);
+    FDisplayMetrics::RebuildDisplayMetrics(DisplayMetrics);
     return DisplayMetrics.MonitorInfo.Num();
 }
 
@@ -59,7 +59,7 @@ void UVulkanResolutionHelperBPLibrary::GetMonitorInfo(int32 MonitorIndex, FStrin
     int32 &NativeHeight, FIntPoint &MaxResolution, bool &bIsPrimary, int32 &DPI)
 {
     FDisplayMetrics DisplayMetrics;
-    FDisplayMetrics::GetDisplayMetrics(DisplayMetrics);
+    FDisplayMetrics::RebuildDisplayMetrics(DisplayMetrics);
 
     if (MonitorIndex >= DisplayMetrics.MonitorInfo.Num()) {
         GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::Printf(TEXT("Monitor Index %d Out of Bounds"), MonitorIndex));
